@@ -37,8 +37,19 @@ export default function FormMovie({
         Movie Year:
       <input required value={movieYear} onChange={e => setMovieYear(e.target.value)}/>
     </label>
+    <label>
+      poster Color:
+      <select value={movieColor} onChange={e => setMovieColor(e.target.value)}>
+        <option value={'purple'}>purple</option>
+        <option value={'green'}>green</option>
+        <option value={'yellow'}>yellow</option>
+        <option value={'pink'}>pink</option>
+      </select>
+    </label>
+    <button>Add New Movie</button>
   </form>;
 }
+
     
 
 
