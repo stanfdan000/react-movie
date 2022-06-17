@@ -44,6 +44,7 @@ export default function FormMovie({
         <option value={'green'}>green</option>
         <option value={'yellow'}>yellow</option>
         <option value={'pink'}>pink</option>
+        <option value={'red'}>red</option>
       </select>
     </label>
     <button>Add New Movie</button>
